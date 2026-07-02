@@ -1,10 +1,29 @@
+# Python
 __pycache__/
-.pytest_cache/
-coverage/
-.coverage
-node_modules/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+env/
 venv/
-.env
+.venv/
+
+# Coverage
+.coverage
+coverage/
+
+# PyTest
+.pytest_cache/
+
+# VS Code
 .vscode/
+
+# IntelliJ
 .idea/
-*.pyc
+
+# Node.js
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
