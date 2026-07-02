@@ -79,4 +79,4 @@ This module covers the fundamental software design principles and design pattern
 
 ## Author
 
-**Ezhil S**
+**Ezhil Sree J**

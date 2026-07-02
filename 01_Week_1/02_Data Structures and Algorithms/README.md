@@ -77,4 +77,4 @@ This module introduces the core concepts of Data Structures and Algorithms (DSA)
 
 ## Author
 
-**Ezhil S**
+**Ezhil Sree J**

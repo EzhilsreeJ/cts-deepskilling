@@ -24,6 +24,6 @@ This repository contains my hands-on exercises, projects, notes, and learning ma
 
 ## Author
 
-**Ezhil S**
+**Ezhil Sree J**
 
 Cognizant Digital Nurture 5.0 – Python Full Stack Engineer

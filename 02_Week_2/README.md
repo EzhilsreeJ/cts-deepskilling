@@ -51,6 +51,6 @@ By the end of Week 2, I gained practical experience in building backend applicat
 
 ## Author
 
-**Ezhil S**
+**Ezhil Sree J**
 
 Cognizant Digital Nurture 5.0 – Python Full Stack Engineer

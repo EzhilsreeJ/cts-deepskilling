@@ -64,4 +64,4 @@ This module introduces the fundamentals of software testing and unit testing. It
 
 ## Author
 
-**Ezhil S**
+**Ezhil Sree J**

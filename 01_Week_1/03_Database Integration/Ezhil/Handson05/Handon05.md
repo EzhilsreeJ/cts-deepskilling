@@ -13,7 +13,6 @@ Create a MongoDB database and collection, perform CRUD operations on documents, 
 ```javascript
 use college_nosql
 ```
-
 ---
 
 ## Step 61 – Create the Feedback Collection
@@ -21,17 +20,15 @@ use college_nosql
 ```javascript
 db.createCollection("feedback");
 ```
-
 ---
 
 ## Step 62 – Insert Sample Feedback Documents
-
+Sample documents imported from feedback.json
 ```javascript
 db.feedback.insertMany([
     ...
 ]);
 ```
-
 ---
 
 ## Step 63 – Insert a Feedback Document Without Attachments
@@ -57,7 +54,7 @@ db.feedback.countDocuments();
 
 ### Output
 
-![Step 64 Output](Screenshot/image.png)
+![alt text](Screenshot/image.png)
 
 ---
 
@@ -73,9 +70,7 @@ db.feedback.find({
 
 ### Output
 
-![Step 65 Output](Screenshot/image-1.png)
-
----
+![alt text](Screenshot/image-1.png)--
 
 ## Step 66 – Find CS101 Feedback Tagged as "challenging"
 
@@ -88,8 +83,7 @@ db.feedback.find({
 
 ### Output
 
-![Step 66 Output](Screenshot/image-2.png)
-
+![alt text](Screenshot/image-2.png)
 ---
 
 ## Step 67 – Display Student ID, Course Code and Rating Only
@@ -108,8 +102,7 @@ db.feedback.find(
 
 ### Output
 
-![Step 67 Output](Screenshot/image-3.png)
-
+![alt text](Screenshot/image-3.png)
 ---
 
 ## Step 68 – Mark Feedback with Rating Less Than 3 for Review
@@ -186,8 +179,7 @@ db.feedback.aggregate([
 
 ### Output
 
-![Step 71 Output](Screenshot/image-4.png)
-
+![alt text](Screenshot/image-4.png)
 ---
 
 ## Step 72 – Round Average Rating to One Decimal Place
@@ -226,8 +218,7 @@ db.feedback.aggregate([
 
 ### Output
 
-![Step 72 Output](Screenshot/image-5.png)
-
+![alt text](Screenshot/image-5.png)
 ---
 
 ## Step 73 – Count the Frequency of Each Tag
@@ -255,8 +246,7 @@ db.feedback.aggregate([
 
 ### Output
 
-![Step 73 Output](Screenshot/image-6.png)
-
+![alt text](Screenshot/image-6.png)
 ---
 
 ## Step 74 – Verify Index Usage Using Explain
@@ -271,8 +261,7 @@ db.feedback.find(
 
 ### Output
 
-![Step 74 Output](Screenshot/image-7.png)
-
+![alt text](Screenshot/image-7.png)
 ---
 
 # Learning Outcomes
@@ -291,6 +280,6 @@ After completing this hands-on, I was able to:
 
 # Author
 
-**Name:** Ezhil S
+**Name:** Ezhil Sree J
 
 **Program:** Cognizant Digital Nurture 5.0 – Python Full Stack Engineer (FSE)

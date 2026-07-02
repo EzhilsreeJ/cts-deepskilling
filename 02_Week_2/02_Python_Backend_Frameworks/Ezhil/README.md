@@ -104,6 +104,6 @@ This module provides hands-on experience in designing, developing, and testing b
 
 ## Author
 
-**Ezhil S**
+**Ezhil Sree J**
 
 Cognizant Digital Nurture 5.0 – Python Full Stack Engineer

@@ -88,6 +88,6 @@ https://github.com/EzhilsreeJ/cts-deepskilling
 
 ## Author
 
-**Ezhil S**
+**Ezhil Sree J**
 
 **Program:** Cognizant Digital Nurture 5.0 - Python Full Stack Engineer (FSE)
