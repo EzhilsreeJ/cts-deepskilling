@@ -1,0 +1,88 @@
+<!--
+Accessibility Audit (Lighthouse)
+
+Initial Accessibility Score: 90
+
+Issues Found:
+1. Background and foreground colors do not have a sufficient contrast ratio.
+2. Heading elements are not in a sequentially descending order.
+
+These issues will be fixed in the following tasks.
+-->
+<!--
+Step 131:
+No expandable elements (hamburger menu/accordion) are present in this application.
+Hence aria-expanded is not applicable.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Student Portal</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#" aria-current="page">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Grades</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Welcome to the Student Portal</h2>
+            <p>Access your courses, profile, grades, and academic resources in one place.</p>
+            <button>Explore Courses</button>
+        </section>
+        <section id="stats">
+            <div class="stat-card">
+                <h3>Courses Enrolled</h3>
+                <p>5</p>
+            </div>
+            <div class="stat-card">
+                <h3>GPA</h3>
+                <p>3.8</p>
+            </div>
+            <div class="stat-card">
+                <h3>Semester</h3>
+                <p>6</p>
+            </div>
+        </section>
+        <section id="courses">
+            <h2>Available Courses</h2>
+            <button id="sort-btn">Sort by Credits</button>
+            <label for="search">Search Courses</label>
+            <input 
+                id="search" 
+                type="text" 
+                placeholder="Search courses"
+            >
+            <p id="search-status" 
+            role="status" 
+            aria-live="polite"
+            >
+            </p>
+            <div class="course-grid">
+           
+            </div>
+            <p id="total-credits"></p>
+            <div id="selected-course">
+                <h3>Selected Course</h3>
+                <p>Click a course card to view details.</p>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2026 Student Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>

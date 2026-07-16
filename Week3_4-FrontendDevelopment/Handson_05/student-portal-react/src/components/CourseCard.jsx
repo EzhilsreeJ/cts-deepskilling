@@ -21,7 +21,7 @@ function CourseCard({
       <p>Code: {code}</p>
       <p>Credits: {credits}</p>
       <p>Grade: {grade}</p>
-      <button onClick={() => handleEnroll(course)}>
+      <button onClick={() => onEnroll(course)}>
         Enroll
       </button>
     </div>

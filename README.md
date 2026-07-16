@@ -6,8 +6,8 @@ This repository contains my hands-on exercises, projects, notes, and learning ma
 
 - Week 1 – Software Engineering Fundamentals
 - Week 2 – Python Backend Frameworks
-- Week 3 – Frontend Development *(Started)*
-- Week 4 – Frontend Development *(Started)*
+- Week 3 – Frontend Development 
+- Week 4 – Frontend Development 
 - Week 5 – QA Concepts & Selenium *(Upcoming)*
 - Week 6 – Git, CI/CD, DevOps & Docker *(Started)*
 - Week 7 – Cloud & GenAI Fundamentals *(Started)*
