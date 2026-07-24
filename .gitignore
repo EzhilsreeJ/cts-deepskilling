@@ -3,13 +3,16 @@
 # ==================================================
 __pycache__/
 *.py[cod]
+*$py.class
 *.pyo
 *.pyd
 *.so
 *.egg
 *.egg-info/
+.eggs/
 *.py,cover
 .python-version
+__pypackages__/
 
 # ==================================================
 # Virtual Environments
@@ -17,6 +20,7 @@ __pycache__/
 env/
 venv/
 .venv/
+ENV/
 
 # ==================================================
 # Testing & Coverage
@@ -26,6 +30,13 @@ venv/
 .coverage.*
 coverage/
 htmlcov/
+.tox/
+.nox/
+.cache/
+.pyre/
+.pytype/
+.mypy_cache/
+.ruff_cache/
 
 # ==================================================
 # Django
@@ -47,12 +58,29 @@ instance/
 *.log
 
 # ==================================================
+# Selenium
+# ==================================================
+.selenium/
+webdriver.log
+chromedriver.log
+geckodriver.log
+msedgedriver.log
+
+# Selenium Screenshots (remove if screenshots are part of documentation)
+**/Screenshot/
+**/Screenshots/
+
+# ==================================================
 # Frontend (React / Angular / Vue / Node.js)
 # ==================================================
 node_modules/
 dist/
 build/
 .cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
 .angular/
 .angular/cache/
 .vite/
@@ -62,11 +90,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-
-# Lock files (optional)
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 
 # ==================================================
 # Environment Variables
@@ -83,7 +106,44 @@ target/
 *.jar
 *.war
 *.ear
-.mvn/
+
+# Maven
+.mvn/timing.properties
+
+# ==================================================
+# Spring Boot
+# ==================================================
+*.pid
+*.pid.lock
+
+# ==================================================
+# Cloud & DevOps
+# ==================================================
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Azure
+.azure/
+
+# AWS
+.aws-sam/
+
+# ==================================================
+# Jupyter Notebook
+# ==================================================
+.ipynb_checkpoints/
 
 # ==================================================
 # IDE Settings
@@ -91,6 +151,9 @@ target/
 .vscode/
 .idea/
 *.iml
+.project
+.classpath
+.settings/
 
 # ==================================================
 # Operating System Files
@@ -107,3 +170,5 @@ Desktop.ini
 *.bak
 *.swp
 *.swo
+*.orig
+*.rej
